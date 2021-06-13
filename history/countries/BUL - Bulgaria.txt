@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+government_rank = 2
+primary_culture = bulgarian
+religion = orthodox
+capital = 150	# Sofia
+
+1444.10.11 = {
+	monarch = {
+		name = "Fruzhin"
+		dynasty = "Shishman"
+		birth_date = 1382.2.04
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
