@@ -1,0 +1,33 @@
+add_namespace = varnamod
+
+country_event = {
+	id = varnamod.1
+	title = "varnamod.1.t"
+	desc = "varnamod.1.d"
+	picture = 4_Rajput_Estate_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+		TAG = HUN
+		TAG = BUL
+		TAG = POL
+		TAG = BYZ
+		TAG = KAR
+		TAG = ERE
+		TAG = CND
+		TAG = AYD
+		TAG = RAM
+		TAG = MEN
+		TAG = TRE
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { # 
+		name = "varnamod.1.a"
+	}
