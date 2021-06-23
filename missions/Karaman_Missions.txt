@@ -1,0 +1,96 @@
+karaman_missions_main_slot = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = KAR
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	collapse_of_ottomans = {
+		icon = mission_varna_turkdude
+		required_missions = {  }
+		trigger = {
+		}
+		effect = {
+			2298 = {
+			add_permanent_claim = KAR
+			}
+			319 = {
+			add_permanent_claim = KAR
+			}
+			327 = {
+			add_permanent_claim = KAR
+			}
+			4309 = {
+			add_permanent_claim = KAR
+			}
+			2297 = {
+			add_permanent_claim = KAR
+			}
+			318 = {
+			add_permanent_claim = KAR
+			}
+			custom_tooltip = KAR_ottomans_collapsed_tooltip
+		}
+	}
+}
+
+karaman_missions_replacer_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = KAR
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+}
+
+karaman_missions_replacer_1 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = KAR
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+}
+
+karaman_missions_replacer_1 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = KAR
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+}
+
+karaman_missions_replacer_1 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = KAR
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+}	
