@@ -6,6 +6,8 @@ country_event = {
 	desc = "varnamod.1.d"
 	picture = 4_Rajput_Estate_eventPicture
 	
+	fire_only_once = yes
+	
 	is_triggered_only = yes
 	
 	trigger = {
@@ -31,3 +33,78 @@ country_event = {
 	option = { # 
 		name = "varnamod.1.a"
 	}
+}
+
+country_event = { #triple commonwealth
+	id = varnamod.2
+	title = "varnamod.2.t"
+	desc = "varnamod.2.d"
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		TAG = PLC
+		PLC = { exists = yes }
+		dynasty = LIT
+		OR = {
+		marriage_with = LIT
+		senior_union_with = LIT
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = { # sounds like a great idea
+		name = "varnamod.2.a"
+		LIT = { country_event = { id = varnamod.3 days = 5 } }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = { # lol who cares about lithuania
+		name = "varnamod.2.b"
+	}
+}
+
+country_event = { #triple commonwealth for lithuania
+	id = varnamod.3
+	title = "varnamod.3.t"
+	desc = "varnamod.3.d"
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # sure, why not
+		name = "varnamod.3.a"
+		PLC = { country_event = { id = varnamod.4 days = 10 } }
+	}
+	
+	option = { # poland < lithuania *Ai will never do this option
+		name = "varnamod.3.b"
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = { #Lithuania accepts
+	id = varnamod.4
+	title = "varnamod.4.t"
+	desc = "varnamod.4.d"
+	picture = COURT_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # cool
+		name = "varnamod.4.a"
+			inherit = LIT
+			add_accepted_culture = lithuanian
+			override_country_name = TRIPLE_COMMONWEALTH
+	}
+}

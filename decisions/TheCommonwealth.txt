@@ -144,7 +144,7 @@ country_decisions = {
 			}
 			NOT = { exists = PLC }
 			NOT = { tag = HLR }
-			tag = LIT
+			tag = HUN
 			POL = {
 				exists = yes
 				ai = yes
@@ -272,22 +272,22 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = PLC }
-			LIT = {
+			HUN = {
 				NOT = { senior_union_with = POL }
 				NOT = { junior_union_with = POL }
 			}
 			POL = {
-				NOT = { senior_union_with = LIT }
-				NOT = { junior_union_with = LIT }
+				NOT = { senior_union_with = HUN }
+				NOT = { junior_union_with = HUN }
 			}
 			OR = {
-				tag = LIT
+				tag = HUN
 				tag = POL
 			}
 			OR = {
 				ai = no
 				NOT = { exists = POL }
-				NOT = { exists = LIT }
+				NOT = { exists = HUN }
 			}
 		}
 		provinces_to_highlight = {

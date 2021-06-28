@@ -1,4 +1,21 @@
 ﻿l_english:
 varnamod.1.t:0 "Welcome To Varna Mod!"
-varnamod.1.d:0 "Polar will problalby fill this in!"
+varnamod.1.d:0 "Polar will probably fill this in!"
 varnamod.1.a:0 "When the Imposter is SUS!"
+
+varnamod.2.t:0 "A Triple Commonwealth?"
+varnamod.2.d:0 "Now that we have integrated the Hungarian Kingdom to our realm, many in our court have posed the question of adding the Grand Duchy of Lithuania to our Commonwealth, creating a union that would be able to withstand all of the empires surrounding and encroaching on rightful $DYNASTY$ lands."
+varnamod.2.a:0 "We must press the Lithuanians to accept."
+varnamod.2.b:0 "We have no interest in the Lithuanian land."
+
+varnamod.3.t:0 "A Triple Commonwealth?"
+varnamod.3.d:0 "The king of Poland has recently united his two kingdoms in Poland and Hungary, seeing that we too are ruled by a $DYNASTY$, Polish diplomats have sent us a proposal to unite our grand duchy to their commonwealth for a common defense against our very rapacious neighbors, and have promised Lithuanians equal rights in the Commonwealth."
+varnamod.3.a:0 "We must accept if we are to survive."
+varnamod.3.b:0 "We have no need for Polish protection!"
+
+varnamod.4.t:0 "Lithuania Accepts!"
+varnamod.4.d:0 "redpilled"
+varnamod.4.a:0 "Three hurrahs for the Commonwealth!"
+
+TRIPLE_COMMONWEALTH:0 "Triple Commonwealth"
+TRIPLE_COMMONWEALTH_ADJ:0 "Commonwealth"
