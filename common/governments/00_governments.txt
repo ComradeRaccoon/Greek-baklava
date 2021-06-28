@@ -32,7 +32,7 @@ monarchy = {
 				austrian_archduchy_reform
 				siamese_absolutism
 				confucian_bureaucracy
-				turkish_beylik
+				turkish_beylik_reform
 			}
 		}
 		hereditary_vs_nobility = {
@@ -139,7 +139,7 @@ monarchy = {
 		principality_legacy
 		tsardom_legacy
 		holy_state_legacy
-		turkish_beylik_legacy
+		turkish_beylik
 	}
 
 	# Each group of exclusive reforms are mutually exclusive to each other
@@ -154,7 +154,6 @@ monarchy = {
 		parliamentary_reform
 		english_monarchy
 		states_general_reform
-		turkish_beylik_reform
 	}
 	
 	# Dictatorships etc
@@ -166,6 +165,7 @@ monarchy = {
 		nepotism_reform
 		lottery_reform
 		dutch_republic
+		turkish_beylik_reform
 	}
 
 	#States General works with few others
@@ -791,6 +791,10 @@ pre_dharma_mapping = {
 	pirate_republic_reform = {
 		government = republic
 		legacy_government = pirate_republic
+	}
+	turkish_beylik_reform = {
+		government = monarchy
+		legacy_government = turkish_beylik
 	}
 	all_mechanics = {
 		government = monarchy

@@ -2471,7 +2471,7 @@ turkish_beylik = {
 		max_absolutism = -20
 		religious_unity = 0.1	
 	}
-
+	legacy_government = yes	
 	custom_attributes = {
 	has_pashas = yes		
 	}

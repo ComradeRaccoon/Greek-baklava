@@ -438,10 +438,15 @@ turkish_beylik_reform = {
 	icon = "elective_monarchy"
 	allow_normal_conversion = yes	
 	potential = {
-		primary_culture = turkish
+		OR = {
+			tag = KAR
+			tag = CND
+			tag = AYD
+			tag = MEN
+			tag = GRM
+		}
 	}
 	valid_for_nation_designer = yes
-	lock_level_when_selected = yes
 	nation_designer_cost = 10
 	nation_designer_trigger = {
 		primary_culture = turkish
