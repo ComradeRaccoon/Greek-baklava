@@ -53,7 +53,7 @@ karaman_missions_replacer_1 = {
 	
 }
 
-karaman_missions_replacer_1 = {
+karaman_missions_replacer_2 = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -64,10 +64,43 @@ karaman_missions_replacer_1 = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
-	
+	conquer_ramazan_KAR = {
+		icon = mission_varna_turkdude
+		required_missions = { collapse_of_ottomans }
+		position = 2
+		trigger = {
+					provinces_to_highlight = {
+			OR = { # all the provinces we should own to highlight
+				province_id = 327 
+			}
+			NOT = {	country_or_non_sovereign_subject_holds = ROOT }
+		}
+			owns_core_province = 327
+		}
+		effect = {
+			2298 = {
+			add_permanent_claim = KAR
+			}
+			319 = {
+			add_permanent_claim = KAR
+			}
+			327 = {
+			add_permanent_claim = KAR
+			}
+			4309 = {
+			add_permanent_claim = KAR
+			}
+			2297 = {
+			add_permanent_claim = KAR
+			}
+			318 = {
+			add_permanent_claim = KAR
+			}
+		}
+	}
 }
 
-karaman_missions_replacer_1 = {
+karaman_missions_replacer_3 = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -78,10 +111,52 @@ karaman_missions_replacer_1 = {
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
-	
+	conquer_traders_KAR = {
+		icon = mission_varna_turkdude
+		required_missions = { collapse_of_ottomans }
+		position = 2
+		trigger = {
+					provinces_to_highlight = {
+			OR = { # all the provinces we should own to highlight
+				province_id = 318
+				province_id = 2297 
+				province_id = 4309
+				province_id = 319
+				province_id = 2298  
+			}
+			NOT = {	country_or_non_sovereign_subject_holds = ROOT }
+		}
+			owns_core_province = 318
+			owns_core_province = 2297
+			owns_core_province = 4309
+			owns_core_province = 319
+			owns_core_province = 2298
+		}
+		effect = {
+			2298 = {
+			add_permanent_claim = KAR
+			}
+			319 = {
+			add_permanent_claim = KAR
+			}
+			327 = {
+			add_permanent_claim = KAR
+			}
+			4309 = {
+			add_permanent_claim = KAR
+			}
+			2297 = {
+			add_permanent_claim = KAR
+			}
+			318 = {
+			add_permanent_claim = KAR
+			}
+			custom_tooltip = KAR_ottomans_collapsed_tooltip
+		}
+	}
 }
 
-karaman_missions_replacer_1 = {
+karaman_missions_replacer_4 = {
 	slot = 5
 	generic = no
 	ai = yes

@@ -2453,7 +2453,7 @@ united_cantons_legacy = {
 }
 
 turkish_beylik = {
-	icon = "elective_monarchy"
+	icon = "beylik"
 	allow_normal_conversion = yes	
 	potential = {
 		primary_culture = turkish
@@ -2481,5 +2481,28 @@ turkish_beylik = {
 		government_abilities = {
 			iqta_mechanic
 		}
+	}
+}
+
+Komninos_Emperorship_legacy= {
+	icon = "soldiers_5"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	legacy_government = yes
+	potential = {
+		OR = {
+			tag = TRE
+			was_tag = TRE
+			has_reform = Komninos_Emperorship_reform
+			have_had_reform = Komninos_Emperorship_reform
+		}
+	}
+	nation_designer_cost = 0
+	modifiers = {
+		local_defensiveness = 0.3
+		prestige = 1
+		monarch_admin_power = 1	
+		idea_cost = -0.1
+		global_tax_modifier = 0.05		
 	}
 }

@@ -8,18 +8,20 @@ bookmark =
 	default = yes
 	
 	country = POL
-	country = CAS
-	country = POR	
-	country = FRA
-	country = ENG
-	country = HAB
-	country = BRA	
-	country = SWE
-	country = MOS
-	country = BUR
+	country = HUN
+	country = BUL	
+	country = KAR
+	country = ERE
+	country = GRM
+	country = SER	
+	country = MEN
+	country = CND
+	country = MEN
 	country = BYZ
 	
-	easy_country = CAS
-	easy_country = POR
 	easy_country = POL
+	easy_country = KAR
+	easy_country = BYZ
+	easy_country = GRM
+}
 }

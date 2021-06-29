@@ -33,6 +33,7 @@ monarchy = {
 				siamese_absolutism
 				confucian_bureaucracy
 				turkish_beylik_reform
+				Komninos_Emperorship_reform
 			}
 		}
 		hereditary_vs_nobility = {
@@ -140,6 +141,7 @@ monarchy = {
 		tsardom_legacy
 		holy_state_legacy
 		turkish_beylik
+		Komninos_Emperorship_legacy
 	}
 
 	# Each group of exclusive reforms are mutually exclusive to each other
@@ -179,6 +181,7 @@ monarchy = {
 		prussian_monarchy
 		elective_monarchy
 		celestial_empire
+		Komninos_Emperorship_reform
 	}
 
 	#Flavor
